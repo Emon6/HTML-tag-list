@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!--Image tag-->
+   <img src="#" alt="" />
+   
+   <!--To Line break use br tag-->
+   <br />
+   
+   <!--To create horizontal Line use hr tag-->
+   <hr />
+   
+   <!--HTML Comments-->
+   
+   <!--Heading Tag-->
+   <h1>This is a heading tag</h1>
+   <h2>This is Heading2 tag</h2>
+   <h3>This is heading3 tag</h3>
+   <h4>This is heading4 tag</h4>
+   <h5>This is heading5 tag</h5>
+   <h6>This is heading6 tag</h6>
+   
+   <!--Paragraph tag-->
+   <p>This is a paragraph tag</p>
+   
+  <!--Anchor tag-->
+  <!-- example of absolute link-->
+  <a href="https://www.google.com" target="_main" >Click here</a><br />
+  <a href="https://www.youtube.com" target="parent">Click here to go to Youtube</a>
+  <!--example of relative link-->
+  <a href="/about.html" target="_self">About Section</a>
+<!--local link-->
+<a href="#demo" target="_self"></a>
+<p id="demo">Demo</p>
+
+  <a href="url" target="_blank" title="page">Blank click</a>
+<a href="mailto:example@gmail.com" target="_top">Email click</a>
+
+<!--Buuton as link-->
+<button onclick=""></button>
+
+<!--Image as Link-->
+<a href="url" target="_blank"><img src="url" height="100%" width="100%" alt="not supported"></a>
+
+  <!--Preformatted text-->
+  <pre>
+     how to use pre tag 
+             You can use like this
+  </pre>
+ 
+ <!--Bold <text--></text-->
+ <b>B tag use to bold a text</b> <br />
+ 
+ <!--Strong tag-->
+ <strong>This is a important and valuable tag</strong><br />
+ 
+ <!--Italic tag-->
+ <i>Using this tag to make a text in italic style</i><br />
+ 
+ <!--Emphasis text-->
+ <em>This is a em tag to explain text that it is emphasis </em><br />
+ 
+ <!-- Small tag-->
+ <small>This is a small tag</small >
+ <br />
+
+ <!-- Big tag-->
+ <big>This is a small tag</big >
+ <br />
+
+ <!--mark tag-->
+ <mark>To mark a text use mark tag</mark>
+ <br />
+ 
+ <!--Delete tag-->
+ <del>To delete a text use del tag</del> <br />
+ 
+ <!--Insert tag-->
+ <ins>To underline a text use ins tag and Insert tag</ins><br />
+ 
+ <!-- Subscript tag-->
+  <div>
+   h<sub>2</sub>o
+  </div>
+  
+  <!--Superscript tag-->
+  <div>
+     x<sup>2</sup>+y<sup>2</sup>
+  </div><br/>
+<!--Code tag-->
+<code>This is a computer code tag</code><br/>
+
+<!--Quotation and citation-->
+<q>It's a quotation tag use quotation on a text use q tag</q><br />
+
+<!--Blockquote tag-->
+<blockquote cite="htts://www.google.com">
+   If we use any kind of text from another source we should use blockquote tag and for showing source use cite attribute 
+</blockquote>
+<br />
+
+<!--Abbr Tag-->
+<abbr title="World Health Organisation">WHO</abbr><br />
+
+<!--Address Tag-->
+<address>
+   10/A,Dapunia 
+   Mymensingh 
+   Bangladesh 
+</address>
+<br />
+
+<!--Cite tag-->
+<p><cite>The Lost Kid</cite> is writing by famous person..... </p> <br />
+
+<!--Bdo tag-->
+<bdo dir="rlt">My name is Emon</bdo><br/>
+
+<!--Span tag-->
+<span>This is a span tag</span><br/>
+<!--Page Layout-->
+ <header>
+         <nav>
+            <ul>
+               <li><a href="#">home</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section>
+            This is section
+         </section>
+         <article>
+            This is article 
+         </article>
+         <aside>
+            This is aside
+         </aside>
+      </main>
+      <footer>
+         footer element 
+      </footer>
+
+<!--List-->
+<div>
+     <ul type="circle">
+        <li>Under</li>
+        <li>list</li>
+        <li>disc, square, circle, none</li>
+     </ul>
+        
+     <ol type="I" start="20">
+        <li>ordered</li>
+        <li>list</li>
+        <li>A,a,1,i,I</li>
+     </ol>
+
+ <dl>
+           <dt>description term</dt>
+           <dd>description data</dd>
+        </dl>
+</div>
+
+<!--table-->
+     <table border="1">
+        <caption>First Table</caption>
+       <thead>
+          <tr>
+             <th>Name</th>
+             <th>Class</th>
+             <th>Roll</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Emon</td>
+             <td>HSC-2<sup>nd</sup></td>
+             <td>1424</td>
+          </tr>
+       </tbody>
+       <tfoot>
+          <tr>
+             <td>Sinan</td>
+             <td>Eight</td>
+             <td>56</td>
+          </tr>
+       </tfoot>
+        
+     </table>
+
+
+     <!--Form-->
+     <form action="#" method="get" accept-charset="utf-8">
+        <label for="text">Name:</label>
+       <input type="text" id="text">
+       <br />
+       <input type="text" placeholder="name"><br />
+       
+       <input type="submit"/><br />
+     <input type="button" value="Okay"/><br />
+     <label for="color">color</label>
+     <input type="color" id="color"/><br />
+     <label for="date">choose date:</label>
+     <input type="date" id="date"/><br />
+     <input type="hidden"/>
+     <input type="number" placeholder="Number"/><br />
+     <input type="password" placeholder="password"/><br />
+     <input type="reset"> <br />
+     <label for="time">Set Time</label>
+     <input type="time" id="time"> <br />
+     <input type="range" min="100" max="5000"> <br />
+     <input type="url" placeholder="typeurl"> <br />
+     <input type="file" multiple> <br />
+     <textarea name="big-text" id="big-text" rows="8" cols="40">Write here</textarea><br />
+     
+     <!--radio-->
+     <label for="car">car</label><br />
+     <input type="radio" id="car" name="cars-1" value="Audi">
+     <label for="car">Audi</label><br />
+     <input type="radio" id="car" name="cars-1" value="BMW">
+     <label for="car">BMW</label><br />
+     <input type="radio" id="car" name="cars-1" value="Ferrari">
+     <label for="car">Ferrari</label><br />
+     
+     <!--checkbox-->
+     <label for="cars">cars</label><br />
+     <input type="checkbox" id="cars" name="cars-1" value="Audi">
+     <label for="cars">Audi</label><br />
+     <input type="checkbox" id="cars" name="cars-2" value="Ferrari">
+     <label for="cars">Ferrari</label><br />
+     <input type="checkbox" id="cars" name="cars-3" value="Lamborghini">
+     <label for="cars">Lamborghini</label><br />
+     
+     <!--select & option-->
+     <label for="select">select option</label>
+     <select name="select" id="select">
+        <option value="Mymensingh " selected>Mymensingh</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Khulna">Khulna</option>
+     </select>
+     </form>
+     
+<!--Iframe tag-->
+  <iframe src="www.google.com" frameborder="0">source from another 
+      </iframe>
+      <!--Target for a link-->
+      <iframe src="http:/www.google.com" name="link-1" frameborder="0"></iframe>
+      <a href="www.youtube.com" target="link-1"></a>
+
+<!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
